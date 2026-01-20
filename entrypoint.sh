@@ -25,5 +25,5 @@ GRANT ALL PRIVILEGES ON wordpress.* TO 'wpuser'@'localhost';
 FLUSH PRIVILEGES;
 EOF
 
-
+service nginx start
 apachectl -D FOREGROUND
