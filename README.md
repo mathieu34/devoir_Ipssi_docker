@@ -10,7 +10,9 @@ Les commandes :
 - docker build --no-cache -t wordpress-ipssi .
 - docker run -p 8080:80 wordpress-ipssi
 - docker run -p 8080:80 -e AUTOINDEX=off wordpress-ipssi
+- docker run -p 80:80 -p 443:443 wordpress-ipssi
 
 Ajout du service nginx : 
 - accessibilite du service wordpress via le container (exec commande) mais pas via l'Endpoint https://127.0.0.1/wordpress 
+
 
